@@ -1,0 +1,29 @@
+ .cardHome{
+    width: 20rem;
+    background-color: rgba(255, 242, 242, 0.568);
+    -webkit-box-shadow: 20px 17px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 17px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 20px 17px 5px 0px rgba(0,0,0,0.75);
+ }
+
+
+
+.mt-n1 {
+ margin-top: -0.25rem !important;
+ 
+ }
+
+ .orizzontale{
+    margin-left: 15%;
+    margin-top: 5%;
+ }
+
+
+.row{
+   margin-right: 0;
+}
+ @media (min-width: 1090px) { 
+    .altezza{
+        height: 50%;
+     }
+ }

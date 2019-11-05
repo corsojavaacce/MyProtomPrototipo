@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: serif,sans-serif,Verdana, Geneva, Tahoma; background-color: grey;}
+
+.myapp-no-padding-dialog .mat-dialog-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid;
+    border-color:#ffc107 ;
+    box-shadow: 0px 0px 5px 2px #ffc107;
+  }
+  
+  h1{
+    font-family:  serif,sans-serif,Verdana, Geneva, Tahoma;
+  }
+
+  .imgIndex{
+    background-image: url(././assets/protom.jpg);
+    height: 700px;
+    width:100%; 
+    background-repeat:no-repeat;
+  }
+
+  @media (max-width: 767.98px) { 
+    .imgIndex{
+      background-image: url(././assets/protomPhone.jpg);
+      height: 333px;
+      width:100%; 
+      background-repeat:no-repeat;
+    }
+
+   }
+
+ 

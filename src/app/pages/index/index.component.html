@@ -1,0 +1,38 @@
+<div class="ontainer-fluid">
+    <section class="hero-wrap js-fullheight imgIndex">
+        <nav class="navbar navbar-light borderNav" style="background-color:rgba(0,0,0,0.5);" id="ftco-navbar">
+            <a class="navbar-brand" [routerLink]=" ">
+                <h1 style="color: #ffc107;">MyProtom</h1>
+            </a>
+            <a (click)="openDialog()" class="btn btn-outline-warning px-4 py-3"><b>Login</b></a>
+
+        </nav>
+        <div class="overlay"></div>
+    </section>
+
+    <div class="row ">
+        <div class="col ">
+            <div class="p-3 cardIndex bg-light">
+                <h3 style="text-align: center;">Help Desk Amministrativo</h3>
+            </div>
+            <div class="p-3 cardIndex1 bg-light">Per problematiche, nella fase di consuntivazione delle attività,
+                inerenti
+                centri di costo e commesse,
+                contattaci al seguente indirizzo di posta elettronica:</div>
+        </div>
+
+        <div class="col">
+            <div class="p-3 cardIndex bg-light">
+                <h3 style="text-align: center;">Help Desk Tecnico</h3>
+            </div>
+            <div class="p-3 cardIndex1 bg-light">Per problemi di accesso all’area riservata, per problemi di
+                visualizzazione
+                o
+                per errori/bug del sistema, contattaci al seguente indirizzo di posta elettronica:</div>
+        </div>
+    </div>
+
+    <div style="margin-top:2%;">
+        <app-footer></app-footer>
+    </div>
+</div>

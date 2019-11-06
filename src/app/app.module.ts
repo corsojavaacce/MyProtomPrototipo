@@ -13,6 +13,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './pages/home/home.component';
 import { NavBarComponent } from './componenti/nav-bar/nav-bar.component';
 import { CardComponent } from './componenti/card/card.component';
+import { CardBodyComponent } from './componenti/card-body/card-body.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { CardComponent } from './componenti/card/card.component';
     DialogComponent,
     HomeComponent,
     NavBarComponent,
-    CardComponent],
+    CardComponent,
+    CardBodyComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

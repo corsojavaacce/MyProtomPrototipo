@@ -1,0 +1,64 @@
+@media (min-width: 600px){
+    .card-deck {
+        display: table;
+        width: 100%;
+        margin-bottom: .75rem;
+        table-layout: fixed;
+        border-spacing: 1.25rem 0;
+    }
+    
+    .card-deck .card {
+        display: table-cell;
+        margin-bottom: 0;
+        vertical-align: top;
+    }
+    .card-deck-wrapper {
+        margin: 5%;
+    }
+    }
+    .card-1 {
+        padding: 10px 10px 10px 10px;
+        -webkit-box-shadow: 20px 17px 5px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: 20px 17px 5px 0px rgba(0,0,0,0.75);
+          box-shadow: 20px 17px 5px 0px rgba(0,0,0,0.75);
+          
+    }
+    
+    
+    .card {
+        position: relative;
+        display: block;
+        margin-bottom: .75rem;
+        background-color: rgba(255, 242, 242, 0.568);
+        border-radius: .25rem;
+        border: 1px solid rgba(0,0,0,.125);
+        
+    }
+    
+    .card-block {
+        padding: 1.25rem;
+    }
+    
+    .card-title {
+        margin-bottom: .75rem;
+    }
+    
+    .blockquote {
+        padding: .5rem 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+        border-left: .25rem solid rgba(0, 0, 0, 0.048);
+    }
+    
+    .card-text:last-child {
+        margin-bottom: 0;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+  
+   

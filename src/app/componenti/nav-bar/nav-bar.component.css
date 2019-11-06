@@ -21,9 +21,7 @@ p{
     color: #ffc107;
 }
 
-#small{
-    display: none;
-}
+
 
 .dropdown-item:hover{
     transition: 1s;
@@ -42,10 +40,19 @@ p{
         display: none;
     }
 
-    #small{
-        display: block;
-    }
     a:hover{
         text-decoration: none;
     }
+ }
+
+
+ @media (max-width: 1100px) {     
+    .drop{
+        background-color:rgba(0, 0, 0, 0.795);
+        
+    }
+    #smallButton{
+        display: Block;
+    }
+
  }
